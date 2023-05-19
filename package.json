@@ -1,0 +1,10 @@
+{
+  "name": "WordsWiz",
+  "uuid": "f2e3a513-d6ef-4fd0-a471-8e1b0da41261",
+  "creator": {
+    "version": "3.7.3"
+  },
+  "dependencies": {
+    "random-words": "1.3.0"
+  }
+}
