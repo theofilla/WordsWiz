@@ -70,6 +70,8 @@ export class WordGenDisplay extends Component {
         this._timerCount = 0;
         this._wordIndex = 0;
         this.wordList = [];
+        this.timer.string = "";
+        this.wordLabel.string = "";
         this.unschedule(this.wordLabelUpdate);
         this.unschedule(this.timerUpdate);
     }
