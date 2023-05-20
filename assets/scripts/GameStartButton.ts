@@ -49,7 +49,7 @@ export class GameStartButton extends Button {
     {
         if(ebox.string.trim() == "")
         return false;
-        if(parseInt(ebox.string)<= ebox.max_val)
+        if(parseInt(ebox.string)<= ebox.max_val && parseInt(ebox.string) >= ebox.min_val  )
         {
             return true;
             

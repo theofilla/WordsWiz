@@ -7,7 +7,10 @@ export class LabelValueSet extends EditBox {
 
     @property
     max_val:number = 0;
-    @property
+
+    @property 
+    min_val:number = 0;
+
     placeHolderDefaultString: string = ""
 
     
